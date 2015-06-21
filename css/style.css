@@ -1,0 +1,145 @@
+body div {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collection-item a {
+	font-size: 36px;
+	margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+#orders {
+    margin-top: -2px;
+    margin-bottom: 50px;
+}
+
+.tabs .indicator {
+    background-color: brown;
+}
+
+.tabs li.tab a {
+    color: brown;
+}
+
+#menu img {
+    height: 32px;
+    width: 32px;
+}
+
+.tabs img {
+    margin-top: 10px;
+}
+
+.option-item {
+    height: 70px;
+    vertical-align: middle;
+}
+
+.option-item img {
+    margin-top: 5px;
+}
+
+.option-item.selected {
+    background-color: #E6EE9C;
+    background-clip: padding-box;
+}
+
+.row:last-child,
+.card {
+    margin-bottom: 0;
+}
+
+.row:last-child a {
+    margin-bottom: 0;
+}
+
+/* Infographic styles */
+
+#infographic {
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+#infographic-cup {
+    position: relative;
+    max-height: 150px;
+    z-index: 2;
+}
+
+#infographic-cubes {
+    z-index: 3;
+    opacity: 0;
+}
+
+#infographic-padding {
+    width: 80%;
+    position: absolute;
+    top: 12.5%;
+    bottom: 12.5%;
+    left: 10%;
+    right: 10%;
+    z-index: 1;
+}
+
+#infographic-base,
+#infographic-water,
+#infographic-milk,
+#infographic-sugar,
+#infographic-cubes {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#infographic-base {
+    background-color: #6F4E37;
+    bottom: 0%;
+}
+
+#infographic-water {
+    background-color: cyan;
+    bottom: 55%;
+}
+
+#infographic-milk {
+    background-color: #FFFF99;
+    bottom: 85%;
+}
+
+#infographic-sugar {
+    background-image: url("../img/sugar.png");
+    background-position: bottom left;
+    top: 87%;
+    bottom: 0;
+}
+
+.ice        #infographic-cubes { opacity: 0.4; }
+.tea        #infographic-base  { background-color: #F4A460; }
+.e-milk     #infographic-milk  { background-color: #FFFFCC; }
+.no-milk    #infographic-milk  { bottom: 100%; }
+.no-sugar   #infographic-sugar { top: 100%; }
+.less-sugar #infographic-sugar { top: 92%; }
+.more-sugar #infographic-sugar { top: 82%; }
+.less-water #infographic-water { bottom: 70%; }
+.more-water #infographic-water { bottom: 40%; }
+
+/* QR Code styles */
+#qrcode {
+	margin: 24px 0px;
+	text-align: center;
+}
+
+#qrcode canvas {
+	display: inline;
+}

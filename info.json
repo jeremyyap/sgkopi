@@ -1,0 +1,28 @@
+{
+	"id":"CoffeeTime",
+	"version":"0.2.5",
+	"label":"Coffee Time",
+	"description":"For Rully to buy coffee",
+	"category":"",
+	"index":"index.html",
+	"icon":"coffee.png",
+	"minVersion":"1.0",
+	"orientation":"portrait",
+	"systemBar":true,
+	"containerVer":{
+		"android":"1.0",
+		"ios":"1.0",
+		"windows":"1.1.1"
+	},
+	"minContainerVer":{
+		"android":"1.0",
+		"ios":"1.0",
+		"windows":"1.0"
+	},
+	"containerUrl":{
+		"android":"",
+		"ios":"",
+		"windows":""
+	},
+	"newVersionDescription":"Fix service invocation"
+}

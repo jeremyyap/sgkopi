@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Singapore Coffee Guide</title>
+</head>
+
+<body>
+	<div class="header center brown white-text">
+		<h3>Singapore Coffee Guide</h3>
+	</div>
+
+	<div class="page">
+		<div class="row center" id="menu">
+			<ul class="tabs">
+				<li class="tab col s2"><a href="#option-type-1"><img src="img/cup.png"/></a></li>
+				<li class="tab col s2"><a href="#option-type-2"><img src="img/milk.png"/></a></li>
+				<li class="tab col s2"><a href="#option-type-3"><img src="img/sweet.png"/></a></li>
+				<li class="tab col s2"><a href="#option-type-4"><img src="img/water.png"/></a></li>
+				<li class="tab col s2"><a href="#option-type-5"><img src="img/ice.png"/></a></li>
+			</ul>
+			<div class="card">
+
+				<div id="option-type-1">
+					<div class="col s6 option-item waves-effect selected">
+						<img src="img/coffee.png"/><br/>
+						<span>Kopi</span>
+					</div>
+					<div class="col s6 option-item waves-effect" data-class="tea">
+						<img src="img/tea.png"/><br/>
+						<span>Teh</span>
+					</div>
+				</div>
+
+				<div id="option-type-2">
+					<div class="col s4 option-item waves-effect selected">
+						<img src="img/milk.png"/><br/>
+						<span>Default</span>
+					</div>
+					<div class="col s4 option-item waves-effect" data-class="no-milk">
+						<img src="img/none.png"/><br/>
+						<span>O</span>
+					</div>
+					<div class="col s4 option-item waves-effect" data-class="e-milk">
+						<img src="img/milk.png"/><br/>
+						<span>C</span>
+					</div>
+				</div>
+
+				<div id="option-type-3">
+					<div class="col s3 option-item waves-effect selected">
+						<img src="img/sweet.png"/><br/>
+						<span>Default</span>
+					</div>
+					<div class="col s3 option-item waves-effect" data-class="no-sugar">
+						<img src="img/none.png"/><br/>
+						<span>Kosong</span>
+					</div>
+					<div class="col s3 option-item waves-effect" data-class="less-sugar">
+						<img src="img/less.png"/><br/>
+						<span>Siew Dai</span>
+					</div>
+					<div class="col s3 option-item waves-effect" data-class="more-sugar">
+						<img src="img/more.png"/><br/>
+						<span>Kah Dai</span>
+					</div>
+				</div>
+
+				<div id="option-type-4">
+					<div class="col s4 option-item waves-effect selected">
+						<img src="img/water.png"/><br/>
+						<span>Default</span>
+					</div>
+					<div class="col s4 option-item waves-effect" data-class="more-water">
+						<img src="img/less.png"/><br/>
+						<span>Po</span>
+					</div>
+					<div class="col s4 option-item waves-effect" data-class="less-water">
+						<img src="img/more.png"/><br/>
+						<span>Gau</span>
+					</div>
+				</div>
+
+				<div id="option-type-5">
+					<div class="col s6 option-item waves-effect selected">
+						<img src="img/none.png"/><br/>
+						<span>Default</span>
+					</div>
+					<div class="col s6 option-item waves-effect" data-class="ice">
+						<img src="img/ice.png"/><br/>
+						<span>Peng</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="center">
+			<div id="infographic">
+				<img id="infographic-cubes" src="img/cubes.png"/>
+				<img id="infographic-cup" src="img/cup.png"/>
+				<div id="infographic-padding">
+					<div id="infographic-base"></div>
+					<div id="infographic-water"></div>
+					<div id="infographic-milk"></div>
+					<div id="infographic-sugar"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row center brown darken-2 white-text">
+			<div class="col s12 z-depth-1"><h3 class="order-preview">Kopi</h3></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
