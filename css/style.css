@@ -133,13 +133,3 @@ body div {
 .more-sugar #infographic-sugar { top: 82%; }
 .less-water #infographic-water { bottom: 70%; }
 .more-water #infographic-water { bottom: 40%; }
-
-/* QR Code styles */
-#qrcode {
-	margin: 24px 0px;
-	text-align: center;
-}
-
-#qrcode canvas {
-	display: inline;
-}
