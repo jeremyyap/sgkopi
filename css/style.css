@@ -131,5 +131,6 @@ body div {
 .no-sugar   #infographic-sugar { top: 100%; }
 .less-sugar #infographic-sugar { top: 92%; }
 .more-sugar #infographic-sugar { top: 82%; }
+.no-water   #infographic-water { bottom: 100%; }
 .less-water #infographic-water { bottom: 70%; }
 .more-water #infographic-water { bottom: 40%; }
